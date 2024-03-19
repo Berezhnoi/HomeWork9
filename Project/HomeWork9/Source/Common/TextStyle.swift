@@ -7,7 +7,9 @@
 
 import UIKit
 
-protocol TextStyleProtocol {}
+protocol TextStyleProtocol {
+    func textColor(for type: TextType) -> UIColor
+}
 
 extension TextStyleProtocol {
     

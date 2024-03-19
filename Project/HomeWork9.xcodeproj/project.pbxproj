@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47A7138C2BAA36E50048C77C /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A7138B2BAA36E50048C77C /* EmailValidator.swift */; };
+		47A7138E2BAA39DF0048C77C /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A7138D2BAA39DF0048C77C /* PasswordValidator.swift */; };
 		CE4F73862BA9B78400E927B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F73852BA9B78400E927B4 /* AppDelegate.swift */; };
 		CE4F73882BA9B78400E927B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F73872BA9B78400E927B4 /* SceneDelegate.swift */; };
 		CE4F738D2BA9B78400E927B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4F738B2BA9B78400E927B4 /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47A7138B2BAA36E50048C77C /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		47A7138D2BAA39DF0048C77C /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
 		CE4F73822BA9B78400E927B4 /* HomeWork9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4F73852BA9B78400E927B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE4F73872BA9B78400E927B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 				CE4F73A62BA9C59900E927B4 /* TextValidator.swift */,
 				CE4F73A82BA9C5D200E927B4 /* TextType.swift */,
 				CE4F73AE2BA9C7DC00E927B4 /* TextStyle.swift */,
+				47A7138B2BAA36E50048C77C /* EmailValidator.swift */,
+				47A7138D2BAA39DF0048C77C /* PasswordValidator.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -217,8 +223,10 @@
 				CE4F739E2BA9B7F900E927B4 /* MainViewController.swift in Sources */,
 				CE4F73862BA9B78400E927B4 /* AppDelegate.swift in Sources */,
 				CE4F73A92BA9C5D200E927B4 /* TextType.swift in Sources */,
+				47A7138E2BAA39DF0048C77C /* PasswordValidator.swift in Sources */,
 				CE4F73AD2BA9C6A200E927B4 /* SignInModelDelegate.swift in Sources */,
 				CE4F73882BA9B78400E927B4 /* SceneDelegate.swift in Sources */,
+				47A7138C2BAA36E50048C77C /* EmailValidator.swift in Sources */,
 				CE4F73A72BA9C59900E927B4 /* TextValidator.swift in Sources */,
 				CE4F73A42BA9BF4C00E927B4 /* SignInModel.swift in Sources */,
 			);
